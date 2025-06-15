@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="GenaroToolsTab" label="Genaro Tools">
+        <group id="grpLimpieza" label="Limpieza de Datos">
+          <button id="btnReemplazarAcentos" label="Reemplazar Acentos" onAction="ReemplazarAcentos" />
+          <button id="btnLimpiarCaracteres" label="Limpiar Caracteres" onAction="LimpiarCaracteresRaros" />
+          <button id="btnCapitalizarTexto" label="Capitalizar Texto" onAction="CapitalizarTexto" />
+          <button id="btnTextoAFecha" label="Texto a Fecha" onAction="TextoAFecha" />
+        </group>
+        <group id="grpAutomatizacion" label="Automatización">
+          <button id="btnConsolidar" label="Consolidar Hojas" onAction="ConsolidarHojas" />
+          <button id="btnFechaHora" label="Insertar Fecha/Hora" onAction="InsertarFechaYHora" />
+          <button id="btnReemplazoMasivo" label="Reemplazo Masivo" onAction="ReemplazoMasivo" />
+          <button id="btnRenombrarHojas" label="Renombrar Hojas" onAction="RenombrarHojas" />
+        </group>
+        <group id="grpReportes" label="Reportes">
+          <button id="btnResumenAuto" label="Resumen Automático" onAction="CrearResumenAutomatico" />
+          <button id="btnErrores" label="Análisis de Errores" onAction="AnalizarErrores" />
+          <button id="btnAuditor" label="Auditor de Referencias" onAction="AuditorDeReferencias" />
+          <button id="btnDuplicarInforme" label="Duplicar Informe" onAction="DuplicarPlantillaInforme" />
+        </group>
+        <group id="grpExportar" label="Exportar">
+          <button id="btnExportarPDF" label="Exportar a PDF" onAction="ExportarHojaComoPDF" />
+          <button id="btnExportarCorreo" label="Enviar por Correo" onAction="EnviarHojaPorCorreo" />
+          <button id="btnExportarSeparado" label="Exportar Hojas Separadas" onAction="ExportarHojasPorSeparado" />
+        </group>
+        <group id="grpUtilidades" label="Utilidades">
+          <button id="btnIndice" label="Crear Índice" onAction="CrearIndice" />
+          <button id="btnDropDown" label="Lista Desplegable Única" onAction="CrearListaDesplegableSinDuplicados" />
+          <button id="btnContarColor" label="Contar por Color" onAction="ContarPorColor" />
+          <button id="btnCrearCarpetas" label="Crear Carpetas" onAction="CrearCarpetasDesdeLista" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
